@@ -16,5 +16,7 @@
 
         <mapping class="main.java.vn.omi.entity.Employee" />
         <mapping class="main.java.vn.omi.entity.Department" />
+        <mapping class="main.java.vn.omi.entity.Items" />
+        <mapping class="main.java.vn.omi.entity.Cart" />
     </session-factory>
 </hibernate-configuration>
