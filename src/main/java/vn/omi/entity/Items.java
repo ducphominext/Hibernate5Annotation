@@ -13,8 +13,12 @@ public class Items implements Serializable {
     @Column(name="id")
     private Integer id;
 
+    @ManyToOne
+    @JoinColumn(name = "cart_id")
+    private Cart cart;
+
     @Column(name="item_id")
-    private Integer itemId;
+    private String itemId;
 
     @Column(name="item_total")
     private Double itemTotal;
@@ -22,9 +26,6 @@ public class Items implements Serializable {
     @Column(name="quantity")
     private Integer quantity;
 
-    @ManyToOne
-    @JoinColumn(name = "cart_id")
-    private Cart cart;
 
     public Integer getId() {
         return id;
@@ -34,11 +35,11 @@ public class Items implements Serializable {
         this.id = id;
     }
 
-    public Integer getItemId() {
+    public String getItemId() {
         return itemId;
     }
 
-    public void setItemId(Integer itemId) {
+    public void setItemId(String itemId) {
         this.itemId = itemId;
     }
 

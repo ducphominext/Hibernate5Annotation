@@ -19,7 +19,7 @@ public class CreateCartData {
         session.save(cart);
 
         Items items = new Items();
-        items.setItemId(100);
+        items.setItemId("CT00001");
         items.setItemTotal(250000d);
         items.setQuantity(2);
         items.setCart(cart);
