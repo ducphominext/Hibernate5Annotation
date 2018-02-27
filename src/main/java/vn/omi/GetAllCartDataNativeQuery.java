@@ -1,5 +1,8 @@
 package main.java.vn.omi;
 
+/*
+ * Created by DucPH - ducph@ominext.com
+ * */
 
 import main.java.vn.omi.entity.Items;
 import main.java.vn.omi.util.HibernateUtil;

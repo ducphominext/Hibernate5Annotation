@@ -6,6 +6,10 @@ import main.java.vn.omi.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+/*
+ * Created by DucPH - ducph@ominext.com
+ * */
+
 public class CreateCartData {
     public static void main(String[] args) throws Exception {
 
